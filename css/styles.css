@@ -1,0 +1,153 @@
+
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat-bold;
+}
+h3 {
+  /* font-size: 1.5rem; */
+}
+p {
+  color: grey;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+/* .....................................section */
+ .colored-section{
+   background-color: #ff4c68;
+   color: white;
+ }
+ .white-section{
+  background-color: #fff;
+ }
+/* ................................title-section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  margin: auto auto -12rem 50px;
+  z-index: 0;
+  right: 30%;
+}
+
+/* .......................................Navbar */
+.navbar-brand {
+  font-family: ubuntu;
+  weight: bold;
+}
+.navbar {
+  padding-bottom: 4.5rem
+}
+.nav-item {
+  font-size: 1rem;
+}
+
+
+/* ........................................Headings */
+.big-heading {
+  font-family: Montserrat-black;
+  font-size: 3.5rem;
+  height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  height: 1.5;
+}
+
+
+/* ..............................download (iphone image) */
+.DOWNLOAD {
+  margin: 5% 3% 5% 0;
+}
+
+/* ........................................Features */
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+.features-title{
+    font-size: 1.5rem;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* ......................................testimonials */
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+
+}
+.testimonial-text{
+  font-size: 3rem;
+  height: 1.5;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+em {
+  font-size: 1.5rem;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin-top: 5%;
+}
+
+/*  ......................................Press */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* .....................................prising */
+#pricing {
+  padding: 100px;
+}
+.pricing-text{
+  font-size: 3rem;
+  height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 5%;
+}
+
+/* ............................................footer */
+.footer-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(o deg);
+  }
+}
